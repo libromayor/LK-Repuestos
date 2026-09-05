@@ -151,7 +151,7 @@
       "sku": "HZ-SPOOL-GOLD",
       "costo": 3.68,
       "precio": 15,
-      "cantidad": 3,
+      "cantidad": 2,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-17T00:00:00.000Z"
@@ -205,7 +205,22 @@
       "fecha": "2026-08-10T00:00:00.000Z"
     }
   ],
-  "sales": [],
+  "sales": [
+    {
+      "id": "mtomh0a30y2pn",
+      "parteId": "p13",
+      "nombre": "Spool slider HZengine - Dorado",
+      "cantidad": 1,
+      "precioUnitario": 15,
+      "costoUnitario": 3.68,
+      "total": 15,
+      "ganancia": 11.32,
+      "moneda": "VES",
+      "montoCobrado": 15744.0309,
+      "tasaBcvUsada": 807.3862,
+      "fecha": "2026-09-05T16:53:51.150Z"
+    }
+  ],
   "bcvRate": 807.3862,
   "bcvUpdatedAt": "2026-09-04T00:00:00.000Z"
 }
