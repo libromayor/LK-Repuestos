@@ -19,7 +19,7 @@
       "sku": "REVSOSTAR-CF",
       "costo": 26.08,
       "precio": 26.08,
-      "cantidad": 0,
+      "cantidad": 1,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -227,17 +227,6 @@
       "total": 19.99,
       "ganancia": 0,
       "fecha": "2026-09-05T03:01:33.546Z"
-    },
-    {
-      "id": "mtntnximhbpsi",
-      "parteId": "p2",
-      "nombre": "Protector de tanque REVSOSTAR Carbono",
-      "cantidad": 1,
-      "precioUnitario": 26.08,
-      "costoUnitario": 26.08,
-      "total": 26.08,
-      "ganancia": 0,
-      "fecha": "2026-09-05T03:27:25.294Z"
     }
   ]
 }
