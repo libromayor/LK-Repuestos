@@ -103,7 +103,7 @@
       "sku": "MT324-BLACK",
       "costo": 51.99,
       "precio": 130,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -219,6 +219,20 @@
       "montoCobrado": 15737.085,
       "tasaBcvUsada": 807.03,
       "fecha": "2026-09-08T12:53:45.936Z"
+    },
+    {
+      "id": "mtso8azegjwgg",
+      "parteId": "p9",
+      "nombre": "Espejos HTTMT MT324 Negro",
+      "cantidad": 1,
+      "precioUnitario": 130,
+      "costoUnitario": 51.99,
+      "total": 130,
+      "ganancia": 78.00999999999999,
+      "moneda": "USD",
+      "montoCobrado": 130,
+      "tasaBcvUsada": null,
+      "fecha": "2026-09-08T12:54:09.050Z"
     }
   ],
   "bcvRate": 807.03,
