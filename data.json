@@ -43,7 +43,7 @@
       "sku": "MT219-055",
       "costo": 21.99,
       "precio": 60,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -233,6 +233,20 @@
       "montoCobrado": 130,
       "tasaBcvUsada": null,
       "fecha": "2026-09-08T12:54:09.050Z"
+    },
+    {
+      "id": "mtytmqex2i060",
+      "parteId": "p4",
+      "nombre": "Protector de marco HTTMT MT219-055 (No Cut)",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 21.99,
+      "total": 60,
+      "ganancia": 38.010000000000005,
+      "moneda": "VES",
+      "montoCobrado": 65691.6,
+      "tasaBcvUsada": 842.2,
+      "fecha": "2026-09-12T20:11:57.371Z"
     }
   ],
   "bcvRate": 842.2,
