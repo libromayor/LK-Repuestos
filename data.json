@@ -55,7 +55,7 @@
       "sku": "REVSOSTAR-CL",
       "costo": 12.37,
       "precio": 25,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -247,6 +247,20 @@
       "montoCobrado": 65691.6,
       "tasaBcvUsada": 842.2,
       "fecha": "2026-09-12T20:11:57.371Z"
+    },
+    {
+      "id": "mu4bdqvk2lkb4",
+      "parteId": "p5",
+      "nombre": "Protector de tanque REVSOSTAR Carbon Look",
+      "cantidad": 1,
+      "precioUnitario": 25,
+      "costoUnitario": 12.37,
+      "total": 25,
+      "ganancia": 12.63,
+      "moneda": "USD",
+      "montoCobrado": 25,
+      "tasaBcvUsada": null,
+      "fecha": "2026-09-16T16:27:42.032Z"
     }
   ],
   "bcvRate": 846.51,
