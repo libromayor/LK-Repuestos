@@ -91,7 +91,7 @@
       "sku": "YIMOTO-M8",
       "costo": 9.99,
       "precio": 15,
-      "cantidad": 4,
+      "cantidad": 3,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -261,6 +261,20 @@
       "montoCobrado": 25,
       "tasaBcvUsada": null,
       "fecha": "2026-09-16T16:27:42.032Z"
+    },
+    {
+      "id": "mu7e1jv56b0rz",
+      "parteId": "p8",
+      "nombre": "Spool slider YIMOTO 8MM M8x1.5 (2 Negro + 2 Rojo)",
+      "cantidad": 1,
+      "precioUnitario": 15,
+      "costoUnitario": 9.99,
+      "total": 15,
+      "ganancia": 5.01,
+      "moneda": "VES",
+      "montoCobrado": 16546.53,
+      "tasaBcvUsada": 848.54,
+      "fecha": "2026-09-18T20:05:30.450Z"
     }
   ],
   "bcvRate": 848.54,
