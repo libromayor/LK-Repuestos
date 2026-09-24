@@ -199,7 +199,7 @@
       "sku": "MT219-057",
       "costo": 25,
       "precio": 65,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -317,6 +317,20 @@
       "montoCobrado": 60,
       "tasaBcvUsada": null,
       "fecha": "2026-09-20T19:05:57.505Z"
+    },
+    {
+      "id": "mueuxvxw2weyf",
+      "parteId": "p17",
+      "nombre": "Protector de marco HTTMT MT219-057 (No Cut, usado)",
+      "cantidad": 1,
+      "precioUnitario": 65,
+      "costoUnitario": 25,
+      "total": 65,
+      "ganancia": 40,
+      "moneda": "USD",
+      "montoCobrado": 65,
+      "tasaBcvUsada": null,
+      "fecha": "2026-09-24T01:32:56.181Z"
     }
   ],
   "bcvRate": 853.49,
