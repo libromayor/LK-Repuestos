@@ -203,6 +203,18 @@
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "nombre": "Guantes ",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 32.29,
+      "precio": 60,
+      "cantidad": 4,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "mun41aet9l704",
+      "fecha": "2026-09-29T20:09:40.854Z"
     }
   ],
   "sales": [
