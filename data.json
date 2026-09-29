@@ -7,7 +7,7 @@
       "sku": "MT219-033-CN",
       "costo": 19.99,
       "precio": 60,
-      "cantidad": 2,
+      "cantidad": 1,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -343,6 +343,22 @@
       "montoCobrado": 65,
       "tasaBcvUsada": null,
       "fecha": "2026-09-24T01:32:56.181Z"
+    },
+    {
+      "id": "mun7ov7xtlvdg",
+      "parteId": "p1",
+      "nombre": "Protector de marco HTTMT MT219-033-CN (No Cut)",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 19.99,
+      "total": 60,
+      "ganancia": 40.010000000000005,
+      "moneda": "MIXTO",
+      "fecha": "2026-09-29T21:51:59.757Z",
+      "montoCobradoUsd": 58,
+      "montoCobradoBs": 1500,
+      "montoCobrado": 59.34499714860605,
+      "tasaBcvUsada": 857.88
     }
   ],
   "bcvRate": 857.88,
