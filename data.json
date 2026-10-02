@@ -139,7 +139,7 @@
       "sku": "HZ-SPOOL-BLUE",
       "costo": 3.68,
       "precio": 15,
-      "cantidad": 3,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-17T00:00:00.000Z"
@@ -371,6 +371,20 @@
       "ganancia": 33.96,
       "moneda": "USD",
       "fecha": "2026-10-02T16:30:18.949Z",
+      "montoCobrado": 45,
+      "tasaBcvUsada": null
+    },
+    {
+      "id": "mur6jmlafyef9",
+      "parteId": "p12",
+      "nombre": "Spool slider HZengine - Azul",
+      "cantidad": 3,
+      "precioUnitario": 15,
+      "costoUnitario": 3.68,
+      "total": 45,
+      "ganancia": 33.96,
+      "moneda": "USD",
+      "fecha": "2026-10-02T16:31:00.382Z",
       "montoCobrado": 45,
       "tasaBcvUsada": null
     }
