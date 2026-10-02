@@ -127,7 +127,7 @@
       "sku": "HZ-SPOOL-BLACK",
       "costo": 3.68,
       "precio": 15,
-      "cantidad": 3,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-17T00:00:00.000Z"
@@ -359,6 +359,20 @@
       "montoCobradoBs": 19.54,
       "montoCobrado": 40.01747418444118,
       "tasaBcvUsada": 860.17
+    },
+    {
+      "id": "mur6iqmbt4vtn",
+      "parteId": "p11",
+      "nombre": "Spool slider HZengine - Negro",
+      "cantidad": 3,
+      "precioUnitario": 15,
+      "costoUnitario": 3.68,
+      "total": 45,
+      "ganancia": 33.96,
+      "moneda": "USD",
+      "fecha": "2026-10-02T16:30:18.949Z",
+      "montoCobrado": 45,
+      "tasaBcvUsada": null
     }
   ],
   "bcvRate": 866.56,
