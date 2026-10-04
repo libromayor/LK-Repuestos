@@ -690,6 +690,7 @@ function renderVenta(){
       '<div class="field" id="sale-mixto-usd-wrap" style="display:' + (isMixto?'':'none') + ';"><label>Recibido en dólares ($)</label><input id="sale-mixto-usd" type="number" min="0" step="0.01" value="" placeholder="0.00"></div>' +
       '<div class="field" id="sale-mixto-bs-wrap" style="display:' + (isMixto?'':'none') + ';"><label>Recibido en bolívares (Bs)</label><input id="sale-mixto-bs" type="number" min="0" step="0.01" value="" placeholder="0.00"></div>' +
       '<div class="field full" id="sale-mixto-equiv-wrap" style="display:' + (isMixto?'':'none') + ';"><label>Equivalente de lo recibido</label><input id="sale-mixto-equiv" type="text" value="" disabled></div>' +
+      '<div class="field full" id="sale-mixto-falta-wrap" style="display:' + (isMixto?'':'none') + ';"><label>Falta por cobrar (a la tasa del día)</label><input id="sale-mixto-falta" type="text" value="" disabled></div>' +
       '<div class="field full"><label>Ganancia de esta venta</label><div id="sale-ganancia-preview" style="font-size:13px; padding:8px 0;"></div></div>' +
       '<div class="form-actions">' +
         '<button class="btn btn-accent" id="btn-register-sale">Registrar venta</button>' +
@@ -851,6 +852,22 @@ function attachHandlers(){
       var bsAmt = parseFloat(mixtoBsInput && mixtoBsInput.value) || 0;
       var bsAsUsd = bsAmt / ((Number(state.bcvRate)||0) * 1.30 || 1);
       equivEl.value = '$' + (usdAmt + bsAsUsd).toFixed(2) + ' en total (' + money(usdAmt) + ' + ' + fmtBs(bsAmt) + ' ≈ ' + money(bsAsUsd) + ')';
+
+      // Cuánto falta para llegar al precio, convertido a bolívares con la
+      // tasa BCV del día (+30%), tomando en cuenta dólares y Bs ya recibidos.
+      var faltaEl = document.getElementById('sale-mixto-falta');
+      if(faltaEl){
+        var pSel = state.parts.find(function(pp){return pp.id===partSel.value;});
+        var q = parseInt(qtyInput.value, 10);
+        if(!pSel || isNaN(q) || q < 1){ faltaEl.value = ''; }
+        else {
+          var totalUsd = q * (Number(pSel.precio)||0);
+          var faltaUsd = Math.max(0, totalUsd - usdAmt - bsAsUsd);
+          faltaEl.value = faltaUsd <= 0.005
+            ? 'Completo — ya cubre el precio'
+            : fmtBs(precioBs(faltaUsd)) + '  (equivale a ' + money(faltaUsd) + ')';
+        }
+      }
     };
     var clampQty = function(){
       var p = state.parts.find(function(pp){return pp.id===partSel.value;});
@@ -862,6 +879,10 @@ function attachHandlers(){
       updateTotal();
     };
     partSel.addEventListener('change', clampQty);
+    var refreshMixto = function(){ if(state.saleCurrency === 'MIXTO') updateMixtoEquiv(); };
+    partSel.addEventListener('change', refreshMixto);
+    qtyInput.addEventListener('input', refreshMixto);
+    qtyInput.addEventListener('change', refreshMixto);
     qtyInput.addEventListener('input', updateTotal);
     qtyInput.addEventListener('change', clampQty);
     qtyInput.addEventListener('blur', clampQty);
@@ -877,7 +898,7 @@ function attachHandlers(){
       });
     };
     var setMixtoFieldsVisible = function(visible){
-      ['sale-mixto-usd-wrap','sale-mixto-bs-wrap','sale-mixto-equiv-wrap'].forEach(function(id){
+      ['sale-mixto-usd-wrap','sale-mixto-bs-wrap','sale-mixto-equiv-wrap','sale-mixto-falta-wrap'].forEach(function(id){
         var el = document.getElementById(id);
         if(el) el.style.display = visible ? '' : 'none';
       });
