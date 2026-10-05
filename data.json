@@ -210,7 +210,7 @@
       "sku": "",
       "costo": 27.71,
       "precio": 60,
-      "cantidad": 4,
+      "cantidad": 3,
       "stockMinimo": 0,
       "enlace": "",
       "id": "mun41aet9l704",
@@ -429,6 +429,20 @@
       "fecha": "2026-10-05T12:02:45.651Z",
       "montoCobrado": 67966.08,
       "tasaBcvUsada": 871.36
+    },
+    {
+      "id": "muvskb0qhd05o",
+      "parteId": "mun41aet9l704",
+      "nombre": "Guantes ",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 27.71,
+      "total": 60,
+      "ganancia": 32.29,
+      "moneda": "USD",
+      "fecha": "2026-10-05T21:58:28.298Z",
+      "montoCobrado": 60,
+      "tasaBcvUsada": null
     }
   ],
   "bcvRate": 871.36,
