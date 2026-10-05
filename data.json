@@ -67,7 +67,7 @@
       "sku": "MT219-037-BK",
       "costo": 24.99,
       "precio": 60,
-      "cantidad": 2,
+      "cantidad": 1,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -415,6 +415,20 @@
       "fecha": "2026-10-02T16:31:55.352Z",
       "montoCobrado": 45,
       "tasaBcvUsada": null
+    },
+    {
+      "id": "muv7a7teams21",
+      "parteId": "p6",
+      "nombre": "Protector de marco HTTMT MT219-037-BK (No Cut)",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 24.99,
+      "total": 60,
+      "ganancia": 35.010000000000005,
+      "moneda": "VES",
+      "fecha": "2026-10-05T12:02:45.651Z",
+      "montoCobrado": 67966.08,
+      "tasaBcvUsada": 871.36
     }
   ],
   "bcvRate": 871.36,
