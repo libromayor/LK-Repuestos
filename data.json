@@ -215,6 +215,18 @@
       "enlace": "",
       "id": "mun41aet9l704",
       "fecha": "2026-09-29T20:09:40.854Z"
+    },
+    {
+      "nombre": "Protector de tanque R6",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 26.44,
+      "precio": 60,
+      "cantidad": 1,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "muxf5zniu0cf0",
+      "fecha": "2026-10-07T01:18:57.726Z"
     }
   ],
   "sales": [
