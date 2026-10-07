@@ -251,6 +251,18 @@
       "enlace": "",
       "id": "muxfbtzc6qqhs",
       "fecha": "2026-10-07T01:23:30.313Z"
+    },
+    {
+      "nombre": "Tapa de gasolina R6",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 19.84,
+      "precio": 45,
+      "cantidad": 2,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "muxfhx5bj8hbb",
+      "fecha": "2026-10-07T01:28:14.351Z"
     }
   ],
   "sales": [
