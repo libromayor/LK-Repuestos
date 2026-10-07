@@ -263,6 +263,18 @@
       "enlace": "",
       "id": "muxfhx5bj8hbb",
       "fecha": "2026-10-07T01:28:14.351Z"
+    },
+    {
+      "nombre": "Slider R6",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 18.81,
+      "precio": 60,
+      "cantidad": 1,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "muxfwlnlfa26k",
+      "fecha": "2026-10-07T01:39:39.297Z"
     }
   ],
   "sales": [
