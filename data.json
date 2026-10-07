@@ -239,6 +239,18 @@
       "enlace": "",
       "id": "muxf97kg95m9e",
       "fecha": "2026-10-07T01:21:27.952Z"
+    },
+    {
+      "nombre": "Slider CBR 600",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 31.45,
+      "precio": 60,
+      "cantidad": 0,
+      "stockMinimo": 1,
+      "enlace": "",
+      "id": "muxfbtzc6qqhs",
+      "fecha": "2026-10-07T01:23:30.313Z"
     }
   ],
   "sales": [
