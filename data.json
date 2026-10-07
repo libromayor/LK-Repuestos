@@ -227,6 +227,18 @@
       "enlace": "",
       "id": "muxf5zniu0cf0",
       "fecha": "2026-10-07T01:18:57.726Z"
+    },
+    {
+      "nombre": "Protector tanque R1",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 25.35,
+      "precio": 50,
+      "cantidad": 1,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "muxf97kg95m9e",
+      "fecha": "2026-10-07T01:21:27.952Z"
     }
   ],
   "sales": [
