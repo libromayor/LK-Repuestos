@@ -31,7 +31,7 @@
       "sku": "MT219-014",
       "costo": 22.02,
       "precio": 60,
-      "cantidad": 2,
+      "cantidad": 1,
       "stockMinimo": 1,
       "enlace": "",
       "fecha": "2026-08-10T00:00:00.000Z"
@@ -501,6 +501,20 @@
       "ganancia": 32.29,
       "moneda": "USD",
       "fecha": "2026-10-05T21:58:28.298Z",
+      "montoCobrado": 60,
+      "tasaBcvUsada": null
+    },
+    {
+      "id": "mvolwmcm6isl7",
+      "parteId": "p3",
+      "nombre": "Protector de marco HTTMT MT219-014 (No Cut)",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 22.02,
+      "total": 60,
+      "ganancia": 37.980000000000004,
+      "moneda": "USD",
+      "fecha": "2026-10-26T01:57:24.646Z",
       "montoCobrado": 60,
       "tasaBcvUsada": null
     }
