@@ -287,6 +287,18 @@
       "enlace": "Amazon",
       "id": "mw2foibj44xfw",
       "fecha": "2026-11-04T18:11:54.943Z"
+    },
+    {
+      "nombre": "Cinta corneta 4RUNNER TACOMA LEXUS CAMRY",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 21.14,
+      "precio": 50,
+      "cantidad": 1,
+      "stockMinimo": 0,
+      "enlace": "Ebay",
+      "id": "mw2fs2h9jtzwt",
+      "fecha": "2026-11-04T18:14:41.037Z"
     }
   ],
   "sales": [
