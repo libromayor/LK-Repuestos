@@ -270,7 +270,7 @@
       "sku": "",
       "costo": 18.81,
       "precio": 60,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 0,
       "enlace": "",
       "id": "muxfwlnlfa26k",
@@ -567,6 +567,20 @@
       "fecha": "2026-10-30T06:27:56.651Z",
       "montoCobrado": 15,
       "tasaBcvUsada": null
+    },
+    {
+      "id": "mw6q9zfh58ehw",
+      "parteId": "muxfwlnlfa26k",
+      "nombre": "Slider R6",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 18.81,
+      "total": 60,
+      "ganancia": 41.19,
+      "moneda": "VES",
+      "fecha": "2026-11-07T18:19:37.758Z",
+      "montoCobrado": 70007.34,
+      "tasaBcvUsada": 897.53
     }
   ],
   "bcvRate": 897.53,
