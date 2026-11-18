@@ -246,7 +246,7 @@
       "sku": "",
       "costo": 30.58,
       "precio": 60,
-      "cantidad": 1,
+      "cantidad": 0,
       "stockMinimo": 1,
       "enlace": "",
       "id": "muxfbtzc6qqhs",
@@ -581,6 +581,20 @@
       "fecha": "2026-11-07T18:19:37.758Z",
       "montoCobrado": 70007.34,
       "tasaBcvUsada": 897.53
+    },
+    {
+      "id": "mwmmmtg4jd0h6",
+      "parteId": "muxfbtzc6qqhs",
+      "nombre": "Slider CBR 600",
+      "cantidad": 1,
+      "precioUnitario": 60,
+      "costoUnitario": 30.58,
+      "total": 60,
+      "ganancia": 29.42,
+      "moneda": "USD",
+      "fecha": "2026-11-18T21:21:56.884Z",
+      "montoCobrado": 60,
+      "tasaBcvUsada": null
     }
   ],
   "bcvRate": 915.74,
