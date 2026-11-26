@@ -318,7 +318,7 @@
       "sku": "",
       "costo": 6.96,
       "precio": 15,
-      "cantidad": 12,
+      "cantidad": 11,
       "stockMinimo": 0,
       "enlace": "",
       "id": "mwxu2m8fys18d",
@@ -634,6 +634,20 @@
       "moneda": "USD",
       "fecha": "2026-11-20T21:55:52.381Z",
       "montoCobrado": 60,
+      "tasaBcvUsada": null
+    },
+    {
+      "id": "mwy1dcjzlabl5",
+      "parteId": "mwxu2m8fys18d",
+      "nombre": " mini slider",
+      "cantidad": 1,
+      "precioUnitario": 15,
+      "costoUnitario": 6.96,
+      "total": 15,
+      "ganancia": 8.04,
+      "moneda": "USD",
+      "fecha": "2026-11-26T20:59:57.264Z",
+      "montoCobrado": 15,
       "tasaBcvUsada": null
     }
   ],
