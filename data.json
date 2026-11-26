@@ -311,6 +311,18 @@
       "enlace": "Ebay",
       "id": "mw2ft68ui4afy",
       "fecha": "2026-11-04T18:15:32.574Z"
+    },
+    {
+      "nombre": " mini slider",
+      "categoria": "Motor",
+      "sku": "",
+      "costo": 6.96,
+      "precio": 15,
+      "cantidad": 12,
+      "stockMinimo": 0,
+      "enlace": "",
+      "id": "mwxu2m8fys18d",
+      "fecha": "2026-11-26T17:35:39.279Z"
     }
   ],
   "sales": [
